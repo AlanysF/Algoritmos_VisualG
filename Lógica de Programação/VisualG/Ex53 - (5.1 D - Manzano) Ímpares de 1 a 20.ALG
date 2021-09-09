@@ -1,19 +1,20 @@
-Algoritmo "ímpares de 1 a 20"
-// Disciplina: [Lógica de Programação e Java Script]
+Algoritmo "Ã­mpares de 1 a 20"
+// Disciplina: [LÃ³gica de ProgramaÃ§Ã£o e Java Script]
 // Professor: Jailson
-// Descrição: Apresentar todos os valores numéricos inteiros ímpares situados na faixa de 0 a 20
-// Autor(a): Antony Fernando Ribas Rocha Silva
+// DescriÃ§Ã£o: Apresentar todos os valores numÃ©ricos inteiros Ã­mpares situados na faixa de 0 a 20
+// Autor(a): Alanys Ferreira
 // Data atual: 02/09/2021
+
 Var
-// Seção de Declarações das variáveis
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
 n: inteiro
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc...
-escreval("Eis a lista de números ímpares entre 0 e 20")
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
+escreval("Eis a lista de nÃºmeros Ã­mpares entre 0 e 20")
 para n de 1 ate 20 faca
-se n mod 2 = 1 entao  // se o número for impar o resto é 1
-escreval( " O número ", n , " é impar " )
+se n mod 2 = 1 entao  // se o nÃºmero for impar o resto Ã© 1
+escreval( " O nÃºmero ", n , " Ã© impar " )
 fimse
 fimpara
 Fimalgoritmo
