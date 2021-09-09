@@ -1,18 +1,18 @@
-Algoritmo "Cem pirmeiros inteiros"
-// Disciplina   : [Lógica de Programação e JavaScript]
+Algoritmo "Cem primeiros inteiros"
+// Disciplina   : [LÃ³gica de ProgramaÃ§Ã£o e JavaScript]
 // Professor   : Jailson 
-// Descrição   : (1+2+3+4+...+98+99+100)
-// Autor(a)    : Nome do(a) aluno(a)
+// DescriÃ§Ã£o   : (1+2+3+4+...+98+99+100)
+// Autor(a)    : Alanys Ferreira
 // Data atual  : 01/09/2021
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
 cont,acul:inteiro
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
 enquanto (cont<101) faca
 acul<-cont+acul
 cont<-cont+1
 fimenquanto
-Escreval("A soma dos cem primeiros números inteiros é ",acul)
+Escreval("A soma dos cem primeiros nÃºmeros inteiros Ã© ",acul)
 Fimalgoritmo
