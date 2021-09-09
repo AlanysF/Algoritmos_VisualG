@@ -1,12 +1,16 @@
 Algoritmo "Fibonacci"
-// Disciplina: [L�gica de Programa��o e Java Script]
+// Disciplina: [Lógica de Programação e Java Script]
 // Professor: Jailson
-// Descri��o: Aqui voc� descreve o que o programa faz! (fun��o)
+// Descrição:  Escreva um programa que apresente a série de Fibonacci até o décimo quinto termo
 // Autor(a): Alanys Ferreira
 // Data atual: 05/09/2021
 
-var
+Var
+// Seção de Declarações das variáveis
 x, atual, anterior, novo:inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
 inicio
    atual <- 1
    anterior <- 0
