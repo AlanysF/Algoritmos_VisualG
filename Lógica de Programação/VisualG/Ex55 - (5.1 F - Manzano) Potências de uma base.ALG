@@ -4,6 +4,7 @@ Algoritmo "Potência Ex.F"
 // Descrição   : Calcula o valor de uma potência de uma base qualquer elevada a um expoente qualquer, ou seja, de BE.
 // Autor(a)    : Alanys
 // Data atual  : 03/09/2021
+
 Var
 // Seção de Declarações das variáveis 
 divisor,dividendo, cont:inteiro
