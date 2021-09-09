@@ -1,15 +1,16 @@
 Algoritmo "Pares de 1 a 500"
-// Disciplina   : [Lógica de Programação e JavaScript]
+// Disciplina   : [LÃ³gica de ProgramaÃ§Ã£o e JavaScript]
 // Professor   : Jailson 
-// Descrição   : Elaborar um programa que apresente no final o somatório dos valores pares existentes na faixa de até 500.
-// Autor(a)    : Nome do(a) aluno(a)
+// DescriÃ§Ã£o   : Elaborar um programa que apresente no final o somatÃ³rio dos valores pares existentes na faixa de atÃ© 500.
+// Autor(a)    : Alanys Ferreira
 // Data atual  : 01/09/2021
+
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
 cont,acul:inteiro
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
 enquanto cont<501 faca
 se cont mod 2=0 entao
 acul<-acul+cont
