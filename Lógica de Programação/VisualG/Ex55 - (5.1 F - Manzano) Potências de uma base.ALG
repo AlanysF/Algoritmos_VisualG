@@ -1,22 +1,22 @@
-Algoritmo "PotÍncia Ex.F"
-// Disciplina   : [LÛgica de ProgramaÁ„o e JavaScript]
+Algoritmo "Pot√™ncia Ex.F"
+// Disciplina   : [L√≥gica de Programa√ß√£o e JavaScript]
 // Professor   : Jailson 
-// DescriÁ„o   : Aqui vocÍ descreve o que o programa faz! (funÁ„o)
+// Descri√ß√£o   : Calcula o valor de uma pot√™ncia de uma base qualquer elevada a um expoente qualquer, ou seja, de BE.
 // Autor(a)    : Alanys
 // Data atual  : 03/09/2021
 Var
-// SeÁ„o de DeclaraÁıes das vari·veis 
+// Se√ß√£o de Declara√ß√µes das vari√°veis 
 divisor,dividendo, cont:inteiro
 
 Inicio
-// SeÁ„o de Comandos, procedimento, funÁıes, operadores, etc... 
+// Se√ß√£o de Comandos, procedimento, fun√ß√µes, operadores, etc... 
 Escreval("Digite o valor do dividendo: ")
 Leia(dividendo)
 Escreval("Digite o valor do divisor: ")
 Leia(divisor)
 
 se divisor>dividendo entao
-Escreval("N„o È possÌvel efetuar a divis„o")
+Escreval("N√£o √© poss√≠vel efetuar a divis√£o")
 senao
 Repita
  dividendo<-dividendo-divisor
