@@ -1,15 +1,16 @@
 Algoritmo "ManzanoExe5"
-// Disciplina : [Lógica de Programação e JavaScript]
+// Disciplina : [LÃ³gica de ProgramaÃ§Ã£o e JavaScript]
 // Professor : Jailson Costa dos Santos
-// Descrição : Aqui você descreve o que o programa faz! (função)
-// Autor(a) : Nome do(a) aluno(a)
+// DescriÃ§Ã£o : Apresentar os resultados das potÃªncias de 3, variando do expoente 0 atÃ© o expoente 15
+// Autor(a) : Alanys Ferreira
 // Data atual : 03/09/2021
+
 Var
-// Seção de Declarações das variáveis
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
 cont, acum:inteiro
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc...
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
 enquanto cont<15 faca
 se acum = 0 entao
 Escreval(1)
