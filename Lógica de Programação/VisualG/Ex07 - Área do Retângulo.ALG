@@ -1,21 +1,22 @@
-Algoritmo "¡rea do Ret‚ngulo"
-// Disciplina   : [LÛgica de ProgramaÁ„o e JavaScript]
+Algoritmo "√Årea do Ret√¢ngulo"
+// Disciplina   : [L√≥gica de Programa√ß√£o e JavaScript]
 // Professor   : Jailson 
-// DescriÁ„o   : Calcula a ·rea do ret‚ngulo
-// Autor(a)    : Nome do(a) aluno(a)
+// Descri√ß√£o   : Calcula a √°rea do ret√¢ngulo
+// Autor(a)    : Alanys Ferreira
 // Data atual  : 24/08/2021
+
 Var
-// SeÁ„o de DeclaraÁıes das vari·veis 
+// Se√ß√£o de Declara√ß√µes das vari√°veis 
 base:inteiro
 altura:inteiro
 area:real
 
 Inicio
-// SeÁ„o de Comandos, procedimento, funÁıes, operadores, etc...
-Escreval("Digite o valor da base do ret‚ngulo: ")
+// Se√ß√£o de Comandos, procedimento, fun√ß√µes, operadores, etc...
+Escreval("Digite o valor da base do ret√¢ngulo: ")
 Leia(base)
-Escreval("Digite o valor da altura do ret‚ngulo: ")
+Escreval("Digite o valor da altura do ret√¢ngulo: ")
 Leia(altura)
 area<-(base*altura)/2
-Escreval("A ·rea do ret‚ngulo È: ",area)
+Escreval("A √°rea do ret√¢ngulo √©: ",area)
 Fimalgoritmo
