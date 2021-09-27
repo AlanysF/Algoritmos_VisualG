@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="JavaScript, Código, Lógica">
+    <meta name="description" content="Potências de base e expoente qualquer">
+    <meta name="author" content="Alanys Ferreira">
+    <title>Potência de base qualquer elevada a um expoente qualquer</title>
+</head>
+
+<body>
+    <script>
+        /*Elaborar um programa que apresente como resultado o valor de uma potência de uma base 
+    qualquer elevada a um expoente qualquer, ou seja, de BE, em que B é o valor da base e E o valor 
+    do expoente. Observe que neste exercício não pode ser utilizado o operador de exponenciação do 
+    portuguol (^).*/
+        var b = parseInt(prompt("Base da potência: "));
+        var e = parseInt(prompt("Valor do expoente: "));
+        var aux = b;
+        for (let i = 0; i <= e; i++) {
+            b = (i == 0) ? 1 : b * aux;
+        }
+        alert("Abra o console para verificar o resultado")
+        console.log(`O Resultado é equivalente a: ${b}`);
+    </script>
+</body>
+
+</html>

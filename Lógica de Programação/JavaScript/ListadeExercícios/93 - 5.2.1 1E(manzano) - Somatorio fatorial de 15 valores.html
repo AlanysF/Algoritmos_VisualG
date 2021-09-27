@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="JavaScript, Código, Lógica">
+    <meta name="description" content="Somatorio fatorial de 15 valores">
+    <meta name="author" content="Alanys Ferreira">
+    <title>Somatorio fatorial de 15 valores</title>
+</head>
+
+<body>
+    <script>
+        /*Elaborar um programa que efetue a leitura de 15 valores numéricos inteiros e no final apresente o 
+    total do somatório da fatorial de cada valor lido.*/
+        var indice = 1,
+            auxiliar = 0,
+            soma = 0,
+            fatorial = 1,
+            numero = 0;
+        do {
+            numero = parseInt(prompt(`Informe o ${indice}º número: `));
+            fatorial = 1;
+            auxiliar = numero;
+            while (auxiliar >= 1) {
+                fatorial = fatorial * auxiliar;
+                auxiliar--;
+            }
+            soma = soma + fatorial;
+            indice++;
+        } while (indice <= 15);
+        alert("Abra o console para ver o resultado")
+        console.log(soma);
+    </script>
+</body>
+
+</html>
